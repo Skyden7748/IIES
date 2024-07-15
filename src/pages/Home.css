@@ -1,0 +1,260 @@
+
+.main{
+    background-color: rgb(255, 230, 200);
+}
+.hero{
+    width: 90%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../images/background.webp");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items:center ;
+    margin:  0 auto;
+    margin-top: 2rem;
+    border-radius: 40px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+.hero-text{
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    
+    color: rgb(255, 255, 255);
+}
+.hero-text h1{
+    font-weight: 150;
+    font-size: 4em;
+    font-weight: 500;
+    letter-spacing: -1px;
+    
+   
+}
+.hero-text h2{
+    font-weight: 100;
+    font-size: 6em;
+
+    
+    font-style: normal;
+    letter-spacing: -1px;
+
+    
+}
+
+.under-hero{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgb(192, 186, 134);
+    /* border-bottom: 10px solid rgb(192, 161, 134);
+    border-right: 10px solid rgb(192, 161, 134); */
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.highlight{
+    border-bottom:8px solid  rgb(247, 220, 177);
+}
+.under-hero-content{
+    padding: 4rem;
+}
+.under-hero-content h1{
+    font-family: "poppins", sans-serif;
+    font-size: 3em;
+    color: rgb(53, 27, 0);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.under-hero-content-h{
+    
+
+    
+}
+.under-hero-content p{
+    font-family: "poppins", sans-serif;
+    font-size: 1.7em;
+    color: rgb(53, 27, 0);
+}
+.achievements{
+    width: 70%;
+ 
+    margin:  0 auto;
+    border-radius: 10px;
+    
+    margin-top: 0.5rem;
+}
+.sub-achievements{
+    display: flex;
+    justify-content: space-between;
+}
+.achievement-card{
+    width: 33%;
+    border: 1px solid rgb(192, 186, 134);
+    border-radius:10px ;
+    padding: 1rem 1.9rem;
+    background-color: rgb(28, 14, 0); ;
+
+}
+.achievement-card h1{
+    font-family: "poppins", sans-serif;
+    font-size: 1.7em;
+    color: rgb(207, 107, 0);
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-top: 1rem;
+}
+.achievement-card p{
+    font-family: "poppins", sans-serif;
+    font-size: 1.2em;
+    color:  rgb(247, 220, 177);
+    
+    
+}
+.card-head{ border-bottom:2px solid  rgb(247, 220, 177);
+    margin-bottom: 1rem;
+}
+
+.rnd{
+    width: 70%;
+    margin:  0 auto;
+    margin-top: 2rem;
+    border: 1px solid rgb(192, 186, 134);
+    border-radius: 10px;
+    padding: 3rem;
+}
+.rnd p{
+    font-family: "poppins", sans-serif;
+    font-size: 1.2em;
+    color:  rgb(49, 31, 0);
+    padding: 1rem;
+}
+.rnd h3{
+    font-family: "poppins", sans-serif;
+    font-size: 1.5em;
+    color:  rgb(49, 31, 0);
+    padding: 0rem;
+}
+.rnd-heading {
+    font-family: "poppins", sans-serif;
+    font-size: 1.7em;
+    color: rgb(49, 31, 0);
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.docs{
+    width: 70%;
+    margin: 0 auto;
+    border : 1px solid rgb(192, 186, 134);
+    border-radius: 10px;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.docs-header{
+    width: 100%;
+    height: fit-content;
+    
+}
+.doc-header h1{
+    font-family: "poppins", sans-serif;
+    font-size: 2.6em;
+    color: rgb(29, 18, 0);
+    font-weight: 500;
+ 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+.doc-content{
+    display: flex;
+    width: 100%;
+   
+    justify-content: space-between;
+    
+}
+.doc01{
+    width: 47%;
+    height: 30rem; 
+  
+   
+}
+.doc01 iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .docs{
+        width: 90%;
+
+        padding: 0.5rem;
+
+    }
+    .doc-header h1{
+        font-size: 1.8em;
+    }
+    .doc-content{
+        display: block;
+    }
+    .doc01{
+        width: 100%;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+    .doc01 iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .hero h1{
+        font-size: 1.7em;
+    }
+    .hero{
+        height: 60vh;
+    }
+    .hero h2{
+        font-size: 1.4em;
+    }
+     .under-hero{
+         width: 90%;
+
+     }
+     .under-hero-content{
+        padding: 1.4rem;
+    }
+    .under-hero-content h1{
+        font-size: 2em;
+    }
+    .under-hero-content p{
+        font-size: 1.05em;
+    }
+    .achievements {
+        width: 90%;
+       
+    }
+    .sub-achievements
+    {
+        display: block;
+    }
+    .sub-achievements .achievement-card{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .rnd{
+        width: 90%;
+    }
+    .rnd h3{
+        font-size: 1.2em;
+    }
+    .rnd p{
+        font-size: 1em;
+    }
+    .rnd
+    {
+        padding: 1em;
+    }
+  }
+
+
+  

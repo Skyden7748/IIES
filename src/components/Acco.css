@@ -1,0 +1,39 @@
+.custom-accordion .accordion-item {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  .custom-accordion{
+    border-radius: 10px;
+  }
+  
+  .custom-accordion .accordion-header {
+    /* Change this to your desired background color */
+    border: none;
+  }
+  .acco-body{
+    background-color: rgb(49, 31, 0) ;
+  }
+  
+  .custom-accordion .accordion-button:not(.collapsed) {
+    background-color:rgb(255, 230, 200) !important; /* Change this to your desired background color */
+  }
+  .custom-accordion .accordion-button.collapsed { background-color: rgb(255, 230, 200)!important; }
+  .custom-accordion .accordion-body {
+    /* Change this to your desired background color */
+  }
+  
+ 
+  
+  .custom-accordion .accordion-body p {
+    margin: 0;
+    color: #ffcdcd;
+    background-color: rgb(49, 31, 0) /* Customize the body text color */
+  }
+  
+  .custom-accordion .accordion-header:focus {
+    box-shadow: none;
+  }
+  .custom-accordion .accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }

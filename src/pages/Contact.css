@@ -1,0 +1,133 @@
+.about-header.one{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../images/contact2.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.contact-content {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgba(163, 87, 0, 0.535);
+    border-radius: 20px;
+    padding: 4rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.contact-content-left{
+    width: 70%;
+    
+    padding: 2rem;
+
+   
+}
+.contact-content-left h1{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    color:  rgb(47, 26, 0);
+    
+    
+    font-size: 1.6rem;
+}
+.contact-content-left p{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    color:  rgb(47, 26, 0);
+    font-size: 1.1rem;
+}
+.contact-content-left-text-one{
+    margin-bottom: 2rem;
+    
+}
+.contact-content-left.right{
+    border-left: 1px solid rgb(195, 104, 0);
+    width: 47%;
+}
+.form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+  .form .title {
+    color: rgb(22, 16, 0);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(133, 88, 0);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgb(255, 212, 156);
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+    background-color: rgb(255, 225, 185);
+    border: 1px solid rgb(133, 88, 0);
+  }
+  
+  .form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(44, 22, 0);
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  }
+      
+
+
+@media screen and (max-width: 768px) {
+    .contact-content{
+        flex-direction: column;
+        width: 90%;
+        padding: 30px;
+    }
+    .contact-content-left{
+        width: 100%;
+        padding: 1px;
+    }
+    .contact-content-left h1{
+        font-size: 1.3rem;
+    }
+    .contact-content-left-text-one p{
+        font-size: 0.9rem;
+    }
+    .contact-content-left.right{
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid rgb(195, 104, 0);
+    }
+    .form{
+        width: 100%;
+    }
+}
