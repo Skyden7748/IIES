@@ -12,7 +12,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <img src="images/logo.png" alt="" />
+            <img src="images/logo2.png" alt="" />
             {/* <i className="fas fa-code"></i> */}
            
           </NavLink>
