@@ -132,14 +132,14 @@ function Home() {
             <img src="" alt="" />
             </div>
             <div className='management_content_img_text'>
-              <h1>Make a difference today by donating</h1>
+              <h1>Make a Difference Today By Donating</h1>
             </div>
 
          </div>
 
 
          <div className='management_content_text three'>
-          <h1>Make a difference today by donating.</h1>
+          <h1>Make a Difference Today By Donating.</h1>
           <p>Your donation empowers change. Every contribution helps us support those in need and advance our mission. Thank you for making a difference.</p>
           <button onClick={handleDonateClick}>
            Donate
