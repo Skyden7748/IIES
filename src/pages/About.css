@@ -34,7 +34,24 @@
     font-weight: 200;
    
 }
+.under-hero-content.s{
+    border: 1px solid #2e1a00;
+    border-radius: 15px;
+    border-left: 7px solid #2e1a00;
+    border-bottom: 7px solid #2e1a00;
+    background-color: #ffde69;
+}
+.under-hero-content.s h1{
+    border-bottom: 1px solid #2e1a00;
+}
+.under-hero-content.s p{
+    margin-top: 2rem;
+}
 
+.highlight-two{
+    background-color: #2e1a00;
+    color: #ffde69;
+}
 .values{
 
  width: 70%;
@@ -46,11 +63,12 @@
    
     
   
-  
+    padding-left: 3rem;
     font-family: "poppins", sans-serif;
     font-weight: 500;
     color:  rgb(53, 27, 0);
     border-bottom: 1px solid rgba(53, 27, 0,0.3);
+    font-size: 3em;
  
     
    
@@ -61,6 +79,19 @@
 }
 .under-hero.rd{
    margin-top: 5rem;
+   background-color: #ffde69;
+   border: 1px solid #2e1a00;
+   border-bottom: 7px solid #2e1a00; 
+   border-radius: 15px;
+   border-left: 7px solid #2e1a00;  
+}
+.under-hero.rd h1  {
+    color: #2e1a00;
+    border-bottom: 1px solid #2e1a00;
+    padding-bottom: 7px;
+}
+.under-hero.rd p{
+    color: #2e1a00;
 }
 .about-last{
    
@@ -80,7 +111,7 @@
 .about-last-left h1{
     font-family: "poppins", sans-serif;
     font-weight: 500;
-    color:  rgb(203, 112, 0);
+    /* color:  rgb(203, 112, 0); */
     border-bottom: 1px solid rgba(255, 230, 200,0.3);
     margin-bottom: 1rem;
     font-size: 2.5rem;
@@ -157,7 +188,8 @@
 }
 .slider h1{
     font-family: poppins, sans-serif;
-    color: rgb(141, 71, 0);
+    color: rgb(53, 27, 0)   ;
+    /* border: 1px solid red; */
 }
 .target{
     width: 70%;
@@ -170,6 +202,8 @@
     border-bottom: 1px solid rgba(53, 27, 0,0.3);
  
     margin-bottom: 1rem;
+    padding-left: 3rem; ;
+    font-size: 3em;
 }
 
 @media screen and (max-width: 768px) {
@@ -205,6 +239,38 @@
     .slider{
         width: 90vw;
     }
+    .values-heading h1{
+        font-size: 2.5rem;
+        padding: 0;
+
+    }
+    .values-heading{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .values{
+        /* border: 1px solid red;
+        margin-bottom: 1rem; */
+        margin-top: 2.7rem;
+        width: 100%;
+    }
+    .management_content{
+        margin-top: 2.3rem;
+    }
+    .target{
+        /* border: 1px solid red; */
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+    .target-heading h1{
+      font-size: 2.5rem;     
+      padding: 0;
+    }
+    .target-heading{
+        text-align: center;
+    }
+    
 
 }
 

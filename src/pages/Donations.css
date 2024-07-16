@@ -14,6 +14,9 @@
     border-radius: 20px;
     border: 1px solid rgb(40, 0, 0);
     padding: 1rem;
+    border-left: 7px solid rgb(40, 0, 0);
+    border-bottom: 7px solid rgb(40, 0, 0);
+    background-color: #ffde69 ;
    
 }
 .d-01-left{
@@ -22,7 +25,7 @@
     
     border-radius: 20px;
     
- 
+   
     padding-left: 5rem;
 
 }    
@@ -31,6 +34,7 @@
    font-size: 6rem;
    font-weight: 500;
    letter-spacing: -5px;
+   color:#2e1a00 ;
 
 
 } 
@@ -40,6 +44,7 @@
     height: 100%;
     border: 1px solid brown ;
     border-radius : 20px;
+    background-color: #2e1a00;
     
 }  
 
@@ -70,6 +75,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
     
 }
 .dream{
@@ -105,15 +111,19 @@
 }
 .d-02-bottom-header h1{
     font-family: poppins, sans-serif;
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(47, 0, 0,1);
     
 }
 .gallery-box{
     margin-bottom: 4rem;
     border: 1px solid rgba(47, 0, 0,0.2);
+    /* border-bottom: 7px solid rgba(47, 0, 0,1);
+    border-left: 7px solid rgba(47, 0, 0,1); */
     padding: 10px;
     border-radius: 20px;
+    
 }
 
 
@@ -128,7 +138,9 @@
     .d-01{  
         
         display: block ; 
-        width: 85%;
+        width: 90%;
+        padding: 0.5rem;
+        padding-bottom: 0.5rem;
     
     
     }
@@ -153,9 +165,9 @@
 
     .d-01-right{
         width: 100%;
-        height:25rem;
+        height:27rem;
         border-radius: 20px;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
         
     }
     .gallery{
@@ -183,4 +195,6 @@
     .gallery-box{
         margin-bottom: 3rem;
     }
+    .home-last.l{
+      display: none;}
 }

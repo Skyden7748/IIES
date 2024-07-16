@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Sp from '../components/Sp'
+import Acco from '../components/Acco'
 
 
 function About() {
@@ -15,14 +16,14 @@ function About() {
             </div>
             </div>
             <div className='under-hero'>
-      <div className='under-hero-content'>
-        <div className='under-hero-content-h'>
+      <div className='under-hero-content s'>
+        <div className='under-hero-content-h s'>
           <h1>
           IIES
           </h1>
         </div>
-        <p>The Indian Institute of Environment and Science (IIES) is a leading research and educational institution
-dedicated to the sustainable development and conservation of the environment. Established in 2005, IIES
+        <p>The Indian Institute of Environment and Science (IIES) is a  <span className='highlight-two'>leading research and educational institution
+dedicated to the sustainable development and conservation of the environment.</span>  Established in 2005, IIES
 has gained a reputation for its cutting-edge research, innovative educational programs, and effective
 outreach initiatives that address critical environmental challenges.
 Located in the vibrant city of Bhubaneswar, Odisha, IIES is equipped with state-of-the-art facilities and a
@@ -31,12 +32,40 @@ approach combines expertise from fields such as environmental science, ecology, 
 to develop holistic solutions for environmental issues.</p>
       </div>
       </div>
+
+      <div className='docs'>
+        <div className='doc-header'>
+          <h1>Documents</h1>
+        </div>
+        <div className='doc-content'>
+        <div className='doc01'>
+        
+        <iframe src="https://drive.google.com/file/d/1xbdZXp_mX_dEuFRAV6g1y-GeRvu_P-Sz/preview" frameborder="0"  ></iframe>
+
+
+
+        </div>
+        <div className='doc01'>
+          <iframe src="https://drive.google.com/file/d/1K5YD1VjiS9FYjuEjY8BFF6-z44yXIYxY/preview" frameborder="0"></iframe>
+        </div>
+        </div>
+      </div>
+
+      <div className='rnd'>
+        <div className='rnd-heading'>
+          <h1>Research and Development</h1>
+        </div>
+        
+      <Acco/>
+      </div>
       
-      <div className='values'>
+      {/* <div className='values'>
         <div className='values-heading'>
             <h1>Core Values</h1>
 
         </div>
+
+        
 
       <div className="slider">
   <div className="slide-track">
@@ -90,7 +119,7 @@ to develop holistic solutions for environmental issues.</p>
 
 
 
-      </div >
+      </div > */}
 
       <div className='under-hero rd'>
       <div className='under-hero-content'>
@@ -103,7 +132,7 @@ to develop holistic solutions for environmental issues.</p>
         accountability. The institute operates under the guidelines of the Indian Societies Registration Act.</p>
       </div>
       </div>
-      <div className='target'>
+      {/* <div className='target'>
         <div className='target-heading'>
             <h1>Project Areas </h1>
         </div>
@@ -111,9 +140,9 @@ to develop holistic solutions for environmental issues.</p>
       <Sp/>
 
 
-      </div>
+      </div> */}
 
-      <div className='about-last'>
+      {/* <div className='about-last'>
          <div className='about-last-left'>
             <h1>
             Human Resources
@@ -133,7 +162,7 @@ adherence to its core values and mission.
             </p>
          </div>
 
-      </div>
+      </div> */}
 
      
         

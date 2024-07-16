@@ -25,7 +25,9 @@ function Donations() {
   </div>
 </div>
 
-
+<div className='home-last l'>
+  <p>Your generous donation is pivotal in supporting our cause. It fuels essential activities like providing resources, supporting community programs, and advocating for change. By supporting us, you directly enhance our ability to make a lasting impact, empowering individuals and families to thrive and fostering a more inclusive society. Together, we are shaping a brighter future and creating positive change. Thank you for joining us in this meaningful journey</p>
+</div>
 
 <div className='d-02'>
   <div className='d-02-top'>

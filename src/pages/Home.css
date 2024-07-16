@@ -1,11 +1,11 @@
 
 .main{
-    background-color: rgb(255, 230, 200);
+    background-color: #ffe6bf;
 }
 .hero{
     width: 90%;
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("../images/background.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url("../images/background.webp");
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,9 +32,9 @@
    
 }
 .hero-text h2{
-    font-weight: 100;
+    font-weight: 200;
     font-size: 6em;
-
+    color: #ffde69;
     
     font-style: normal;
     letter-spacing: -1px;
@@ -45,17 +45,23 @@
 .under-hero{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid rgb(192, 186, 134);
+    border: 1px solid #2e1a00;
+    border-bottom: 7px solid  #2e1a00;
+    /* border-left: 7px solid  #2e1a00; */
     /* border-bottom: 10px solid rgb(192, 161, 134);
     border-right: 10px solid rgb(192, 161, 134); */
     border-radius: 20px;
     margin-top: 2rem;
 }
 .highlight{
-    border-bottom:8px solid  rgb(247, 220, 177);
+    background-color: #ffde69;
+}
+.highlight-2{
+    
 }
 .under-hero-content{
     padding: 4rem;
+   
 }
 .under-hero-content h1{
     font-family: "poppins", sans-serif;
@@ -97,7 +103,7 @@
 .achievement-card h1{
     font-family: "poppins", sans-serif;
     font-size: 1.7em;
-    color: rgb(207, 107, 0);
+    color: #ffde69;
     font-weight: 500;
     letter-spacing: -1px;
     padding-top: 1rem;
@@ -149,6 +155,7 @@
     border-radius: 10px;
     padding: 3rem;
     margin-top: 2rem;
+    
 }
 .docs-header{
     width: 100%;
@@ -184,7 +191,214 @@
     border-radius: 10px;
 }
 
+
+.management_content{
+
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin: 0 auto;
+    border: 1px solid #2e1a00;
+    border-bottom: 7px solid #2e1a00;
+    border-left: 7px solid #2e1a00;
+    background-color: #ffde69;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+
+    border-radius: 40px;
+}
+.management_content_img{
+    width: 26rem;
+    height: 26rem;
+    border: 1px solid #2e1a00;
+    border-radius: 20px;
+    background-image: url("../images/management2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.management_content_img h1{
+    display: none;
+}
+
+
+.management_content_text{
+    width:60%;
+    
+
+}
+.management_content_text h1{
+    font-family:   "poppins" , sans-serif;
+    border-bottom: 2px solid #2e1a00;
+    color: #2e1a00;
+    padding-bottom: 7px;
+    font-size: 3em;
+
+}
+.management_content_text p{
+    margin-top: 2rem;
+    font-family: "poppins",sans-serif;
+    font-size: 1.7em;
+    font-weight: 500;
+    
+}
+.management_content_img.next{
+    width: 25rem;
+    background-image: url("../images/hr1.png");
+}
+.management_content.next{
+    margin-top: 4rem;
+}
+.management_content_img.three{
+    background-image: url("../images/don1.png");
+    background-size: cover; 
+    background-position: center;
+     
+}
+.management_content_text.three button{
+    
+    
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #2e1a00;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: 2px solid #2e1a00;
+        background: #ffe8b5;
+        box-shadow: -3px 3px #2e1a00;
+        /* border-left: 3px solid #2e1a00;
+        border-bottom: 3px solid #2e1a00; */
+        cursor: pointer;
+        /* margin: 35px 0; */
+      
+      
+      
+       
+}
+    .management_content_text.three button:active  {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+  .management_content_text.three h1{
+    /* font-size: 4em; */
+    
+  }
+  .home-last{
+    /* background-color: #ffde69; */
+    width: 70%;
+    margin:  0 auto;
+    padding: 2rem;
+    border-bottom:2px solid #2e1a00; 
+    margin-top: 2rem;
+  }
+  .home-last p{
+    font-family: poppins, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: rgba(46, 26, 0 ,0.7) ;
+  }
+  .management_content_img_text{
+    display: none;
+  }
+
 @media screen and (max-width: 768px) {
+
+    .management_content_text.three button{
+    
+    
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #2e1a00;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border-radius: 23px;
+        border: 2px solid #2e1a00;
+        background: #ffe8b5;
+        box-shadow: -3px 3px #2e1a00;
+        /* border-left: 3px solid #2e1a00;
+        border-bottom: 3px solid #2e1a00; */
+        cursor: pointer;
+        /* margin: 35px 0; */
+      
+      
+      
+       
+}
+    .home-last{
+        width: 95%;
+        padding: 1rem;
+        padding-bottom: 3rem;
+
+    }
+    .home-last p{
+        font-size: 1.5em;
+        margin-top: -2rem;
+        margin-bottom: 0;
+
+    }
+    .management_content{
+        width: 90%;
+        display: block;
+        padding: 1rem;
+    }
+    .management_content_img{
+       width: 7.5rem;
+       height: 7.5rem;
+    }
+    .management_content_img_container{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #2e1a00;
+        padding-bottom: 0.7rem;
+    }
+    .management_content_img_container h1{
+        font-family:  poppins, sans-serif;
+        font-size: 1.6em;
+        text-align: center;
+        font-weight: 600;
+        text-align: left;
+    }
+    .management_content_img_text{
+        width: 55%;
+        height: 7rem;
+        display: grid;
+        align-items: center;
+        /* border: 1px solid red; */
+       
+       
+
+    }
+    .management_content_img.next{
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+    .management_content_img_container.two{
+        border: none;
+    }
+    .management_content_img img{
+        
+    }
+    .management_content_text{
+        width: 95%;
+        margin: 0 auto;
+        
+
+    }
+    .management_content_text h1{
+        font-size: 1.5em;
+        display: none;
+       
+    }
+    .management_content_text p{
+        font-size: 1em;
+        margin-top: 1.2rem;
+        
+    }
     .docs{
         width: 90%;
 
@@ -228,6 +442,7 @@
     }
     .under-hero-content p{
         font-size: 1.05em;
+        font-weight: 500;
     }
     .achievements {
         width: 90%;
