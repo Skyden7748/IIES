@@ -133,6 +133,7 @@ function Home() {
             </div>
             <div className='management_content_img_text'>
               <h1>Make a Difference Today By Donating</h1>
+              
             </div>
 
          </div>

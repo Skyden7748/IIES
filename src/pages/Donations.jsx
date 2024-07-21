@@ -19,6 +19,7 @@ function Donations() {
 <div className='d-01'>
   <div className='d-01-left'>
     <h1>Together, We Can Change Lives</h1>
+    <button>Donate</button>
   </div>
   <div className='d-01-right'>
      

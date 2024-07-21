@@ -6,14 +6,14 @@
 }
 .d-01{
     display: flex;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 
-    height: 30rem;
+    height: fit-content;
     margin-top: 5rem;
     border-radius: 20px;
     border: 1px solid rgb(40, 0, 0);
-    padding: 1rem;
+    padding: 1.5rem;
     border-left: 7px solid rgb(40, 0, 0);
     border-bottom: 7px solid rgb(40, 0, 0);
     background-color: #ffde69 ;
@@ -26,12 +26,12 @@
     border-radius: 20px;
     
    
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
 
 }    
 .d-01-left h1{
    font-family: "poppins", sans-serif;
-   font-size: 6rem;
+   font-size: 5.7rem;
    font-weight: 500;
    letter-spacing: -5px;
    color:#2e1a00 ;
@@ -40,14 +40,45 @@
 } 
 .d-01-right{
     
-    width: 53%;
-    height: 100%;
+    width: 35rem;
+    height: 35rem;
+    
     border: 1px solid brown ;
     border-radius : 20px;
-    background-color: #2e1a00;
+    
+    background-image: url("../images/help.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }  
-
+.d-01-left button{
+    
+    
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #2e1a00;
+    text-transform: uppercase;
+    padding: 25px 25px;
+    border-radius: 10px;
+    border: 2px solid #2e1a00;
+    background: #ffe8b5;
+    box-shadow: -3px 3px #2e1a00;
+    /* border-left: 3px solid #2e1a00;
+    border-bottom: 3px solid #2e1a00; */
+    cursor: pointer;
+    /* margin: 35px 0; */
+    
+  
+  
+  
+   
+}
+.d-01-left button:active  {
+box-shadow: none;
+transform: translate(3px, 3px);
+}
 .d-02
 {
     width: 70%;
@@ -164,10 +195,24 @@
     }
 
     .d-01-right{
-        width: 100%;
-        height:27rem;
+        /* width: 27rem;
+        height:27rem; */
         border-radius: 20px;
         margin-bottom: 0rem;
+        
+    
+            width: 98%;
+            height: 20rem;
+            
+            border: 1px solid brown ;
+            border-radius : 20px;
+            
+            background-image: url("../images/help.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 auto;
+            
         
     }
     .gallery{
@@ -197,4 +242,12 @@
     }
     .home-last.l{
       display: none;}
+      .d-01-left button{
+        margin-top: 1rem;
+      }
+    .d-01-left h1{
+
+        font-weight: 600;
+
+    }
 }
